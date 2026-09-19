@@ -48,9 +48,7 @@ The Serial Monitor runs at 115200 baud and displays the X-axis value, Y-axis val
 
 ## Wokwi Simulation
 
-Add the permanent saved/share Wokwi project URL here before final submission.
-
-> Note: `https://wokwi.com/projects/new/esp32` is the project creation page, not the permanent URL for the saved simulation.
+https://wokwi.com/projects/475611208004145153?utm_source=chatgpt.com
 
 ## Files
 
