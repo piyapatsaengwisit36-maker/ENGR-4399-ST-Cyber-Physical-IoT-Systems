@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "author": "Jacob kebbel",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "board-esp32-devkit-c-v4",
+      "id": "esp",
+      "top": -8,
+      "left": 4,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-analog-joystick",
+      "id": "joy",
+      "top": 10,
+      "left": -210,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-servo",
+      "id": "servo",
+      "top": 10,
+      "left": 250,
+      "attrs": {}
+    }
+  ],
+  "connections": [
+    [
+      "joy:VCC",
+      "esp:3V3",
+      "red",
+      [
+        "h0"
+      ]
+    ],
+    [
+      "joy:GND",
+      "esp:GND.1",
+      "black",
+      [
+        "h0"
+      ]
+    ],
+    [
+      "joy:HORZ",
+      "esp:34",
+      "green",
+      [
+        "h0"
+      ]
+    ],
+    [
+      "joy:VERT",
+      "esp:35",
+      "blue",
+      [
+        "h0"
+      ]
+    ],
+    [
+      "joy:SEL",
+      "esp:18",
+      "orange",
+      [
+        "h0"
+      ]
+    ],
+    [
+      "servo:PWM",
+      "esp:19",
+      "purple",
+      [
+        "h0"
+      ]
+    ],
+    [
+      "servo:V+",
+      "esp:5V",
+      "red",
+      [
+        "h0"
+      ]
+    ],
+    [
+      "servo:GND",
+      "esp:GND.2",
+      "black",
+      [
+        "h0"
+      ]
+    ]
+  ],
+  "dependencies": {}
+}
